@@ -1,0 +1,31 @@
+.style{
+    height: 70px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    border-width: 1px 1px 1px 3px;
+    border-style: solid;
+    border-color: rgb(214, 215, 217) rgb(214, 215, 217) rgb(214, 215, 217) rgb(31, 143, 225);
+    border-image: initial;
+    padding: 8px;
+    border-left: 3px solid rgb(31, 143, 225);
+    background: rgb(40, 44, 53);
+    margin: 50px;
+    width: 30%;
+}
+
+.style:hover{
+    background-color: rgb(31, 143, 225);
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+
+}
+
+p{
+    padding: 10px;
+}
+

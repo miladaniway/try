@@ -1,0 +1,105 @@
+.container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.form-login{
+    position: absolute;
+    width: 60%;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.15);
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 7px;
+    border: 1px solid rgba(160,160,160,.43);
+    text-align: center;
+    background-color: #fafafa;
+    padding: 36px 25px;
+    display: block;
+}
+
+.form-login-left{
+    float: left;
+    width: 50%;
+}
+
+.button-facebook{
+    padding: 10px;
+    background: #5a7099;
+    width: 50%;
+    color: white;
+}
+
+.font-f{
+   display: flex;
+}
+
+.wrapper-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-button img{
+    color: white;
+}
+
+.button-twitter{
+    padding: 10px;
+    background: #49aecb;
+    width: 50%;
+    color: white;
+    margin: 10px;
+}
+
+.font-t{
+    display: flex;
+}
+
+.wrapper-twitter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-twitter img{
+    color: white;
+}
+
+
+.button-google{
+    padding: 10px;
+    background: #df4a32;
+    width: 50%;
+    color: white;
+    margin: 0px;
+}
+
+.font-g{
+    display: flex;
+}
+
+.wrapper-google{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-google img{
+    color: white;
+}
+
+.sign-form .form-control {
+    background: #fff;
+    border-radius: 1px;
+    font-size: 1.3rem;
+    padding: 7px 28px 7px 12px;
+    height: auto;
+    text-align: left;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+}
